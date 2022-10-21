@@ -9,3 +9,9 @@ vim.opt.smartindent = true
 
 vim.opt.hlsearch = false
 vim.opt.incsearch = true
+
+vim.opt.cmdheight = 1
+
+vim.opt.updatetime = 50
+
+vim.opt.colorcolumn = "80"
