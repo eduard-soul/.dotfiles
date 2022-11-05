@@ -5,3 +5,4 @@ alias cat='bat --style=plain'
 alias ygg="sudo sh ~/Desktop/Other/script_resolv.sh"
 alias accent="setxkbmap -layout us -variant intl"
 alias pasaccent="setxkbmap -layout us"
+alias py="python3"
