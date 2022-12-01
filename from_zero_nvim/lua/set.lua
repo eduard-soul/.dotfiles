@@ -3,7 +3,7 @@ vim.opt.guicursor = ""		    -- change the gui cursor to the box one of visual
 vim.opt.nu = true 		        -- display line numbers
 vim.opt.relativenumber = true 	-- display line numbers relative to cursor
 
-vim.opt.errorbells = false	    -- remove errors bells (to clarify) 
+vim.opt.errorbells = false	    -- remove errors bells 
 
 vim.opt.tabstop = 4		        -- size of tabs
 vim.opt.softtabstop = 4		    -- size of tabs while editing
@@ -16,3 +16,8 @@ vim.opt.wrap = true             -- set the wrapping or not of the line when the 
 
 vim.opt.hlsearch = false        -- set highlighting of search 
 
+vim.opt.colorcolumn = "80"      -- make a column at 80 chars 
+
+-- Having longer updatetime (default is 4000 ms = 4 s) leads to noticeable
+-- delays and poor user experience.
+vim.opt.updatetime = 50

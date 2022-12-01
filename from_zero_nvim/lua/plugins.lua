@@ -8,6 +8,7 @@ return require('packer').startup(function(use)
     use 'neovim/nvim-lspconfig' -- Configurations for Nvim LSP 
     -- use "williamboman/nvim-lsp-installer"
     use { "williamboman/mason.nvim" }
+    use({"L3MON4D3/LuaSnip", tag = "v<CurrentMajor>.*"}) 
 
     use("neovim/nvim-lspconfig")
     use("hrsh7th/cmp-nvim-lsp")
