@@ -16,6 +16,7 @@ vim.opt.wrap = true             -- set the wrapping or not of the line when the 
 
 vim.opt.hlsearch = false        -- set highlighting of search 
 
+vim.opt.scrolloff = 10          -- make the cursor centered verticaly, scroll the page before getting on the top/bottom 
 vim.opt.colorcolumn = "80"      -- make a column at 80 chars 
 
 -- Having longer updatetime (default is 4000 ms = 4 s) leads to noticeable
